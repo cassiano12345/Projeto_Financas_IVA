@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/" xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+<env:Header xmlns:env='http://schemas.xmlsoap.org/soap/envelope/'>
+<wss:Security xmlns:wss="http://schemas.xmlsoap.org/ws/2002/12/secext" xmlns:at="http://at.pt/wsp/auth" xmlns:S="http://schemas.xmlsoap.org/soap/envelope/" S:Actor="http://at.pt/actor/SPA" at:Version="2">
+<wss:UsernameToken>
+<wss:Username>599999993/0037</wss:Username>
+<wss:Password Digest="+SI/TCpWwEGECU87eKYE6FubKIRW5LjTlMvIIIWHXX0=&#10;">testes1234</wss:Password>
+<wss:Nonce>AsXSrFddHCX0nr2P/WxXTFyfBUbcPtW0K0pIE9AqdvcDI/DP6hK7rLDXmBcL3yotWT13ZAlpxLXX
+CQW1Lo6j0M3ZBM+Xi8PODvOaC/2yavJWj6EqvvaalEcielbTGe2/pHW9iqLFmBSioBVZKoasXzur
+14+ZFZU34kCMsA8kGLK+K2xBoh6RcpQmsijq/EKRgqwwmbd5wcHgkboBxDzkhP1w7R1AY5A0p+/d
+4QR64aYQotoZb145VWzaZiUzecwPZWqUR6aPIECmGHT87lsTjjnvanLC60D19G+1zXCknSHpYirl
+gGzeO3zNx5O/ucc/ananJhNKafDLindiU3ARtQ==</wss:Nonce>
+<wss:Created>2025-01-20T17:19:53.362Z</wss:Created>
+</wss:UsernameToken>
+</wss:Security>
+</env:Header>
+<S:Body>
+<ns0:submeterDeclaracaoPeriodicaIVARequest xmlns:ns0="https://servicos.portaldasfinancas.gov.pt/dpivaws/DeclaracaoPeriodicaIVAWebService">
+<versaoDeclaracao>2016</versaoDeclaracao>
+<declaracao>VUVzREJCUUFDQWdJQUc5ek9Gb0FBQUFBQUFBQUFBQUFBQUFJQUFBQVpHRjBZUzUwZUhURjFFMEtnQ0FRaHVGOTBCMDZ3amYrdTR6YQp1QXVDN24rVXJJUWdpZ3hOM3dNNHo0Z0k2dWZCT1FnRzBoQ2t1eHExRGRnNHVhV1g5b2l6V2c1T0NORitKVlRKSWZCemtRNzV0eU1tCjcxQzFEVnZlb1hPY2svNCtlQTVHc3NVNzZIMUN2cDRkTUlCaTRmY3cyUmI4ZkIvbmJGTnc3bzNEQmdhVjNQL2FDbEJMQndqVGZFWVEKZlFBQUFGNEdBQUJRU3dFQ0ZBQVVBQWdJQ0FCdmN6aGEwM3hHRUgwQUFBQmVCZ0FBQ0FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBWkdGMApZUzUwZUhSUVN3VUdBQUFBQUFFQUFRQTJBQUFBc3dBQUFBQUE=</declaracao>
+<aceitaAlertas>true</aceitaAlertas>
+</ns0:submeterDeclaracaoPeriodicaIVARequest>
+</S:Body>
+</S:Envelope>

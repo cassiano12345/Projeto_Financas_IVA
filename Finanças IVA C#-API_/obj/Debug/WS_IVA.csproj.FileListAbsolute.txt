@@ -1,0 +1,20 @@
+C:\Users\helder\OneDrive\Ambiente de Trabalho\WS_IVA\WS_IVA\bin\Debug\WS_IVA.exe.config
+C:\Users\helder\OneDrive\Ambiente de Trabalho\WS_IVA\WS_IVA\bin\Debug\WS_IVA.exe
+C:\Users\helder\OneDrive\Ambiente de Trabalho\WS_IVA\WS_IVA\bin\Debug\WS_IVA.pdb
+C:\Users\helder\OneDrive\Ambiente de Trabalho\WS_IVA\WS_IVA\obj\Debug\WS_IVA.csproj.AssemblyReference.cache
+C:\Users\helder\OneDrive\Ambiente de Trabalho\WS_IVA\WS_IVA\obj\Debug\WS_IVA.Form1.resources
+C:\Users\helder\OneDrive\Ambiente de Trabalho\WS_IVA\WS_IVA\obj\Debug\WS_IVA.Properties.Resources.resources
+C:\Users\helder\OneDrive\Ambiente de Trabalho\WS_IVA\WS_IVA\obj\Debug\WS_IVA.csproj.GenerateResource.cache
+C:\Users\helder\OneDrive\Ambiente de Trabalho\WS_IVA\WS_IVA\obj\Debug\WS_IVA.csproj.CoreCompileInputs.cache
+C:\Users\helder\OneDrive\Ambiente de Trabalho\WS_IVA\WS_IVA\obj\Debug\WS_IVA.exe
+C:\Users\helder\OneDrive\Ambiente de Trabalho\WS_IVA\WS_IVA\obj\Debug\WS_IVA.pdb
+C:\Users\Cassiano Videira\Desktop\WS_IVA\WS_IVA\bin\Debug\WS_IVA.exe.config
+C:\Users\Cassiano Videira\Desktop\WS_IVA\WS_IVA\bin\Debug\WS_IVA.exe
+C:\Users\Cassiano Videira\Desktop\WS_IVA\WS_IVA\bin\Debug\WS_IVA.pdb
+C:\Users\Cassiano Videira\Desktop\WS_IVA\WS_IVA\obj\Debug\WS_IVA.csproj.AssemblyReference.cache
+C:\Users\Cassiano Videira\Desktop\WS_IVA\WS_IVA\obj\Debug\WS_IVA.Form1.resources
+C:\Users\Cassiano Videira\Desktop\WS_IVA\WS_IVA\obj\Debug\WS_IVA.Properties.Resources.resources
+C:\Users\Cassiano Videira\Desktop\WS_IVA\WS_IVA\obj\Debug\WS_IVA.csproj.GenerateResource.cache
+C:\Users\Cassiano Videira\Desktop\WS_IVA\WS_IVA\obj\Debug\WS_IVA.csproj.CoreCompileInputs.cache
+C:\Users\Cassiano Videira\Desktop\WS_IVA\WS_IVA\obj\Debug\WS_IVA.exe
+C:\Users\Cassiano Videira\Desktop\WS_IVA\WS_IVA\obj\Debug\WS_IVA.pdb
