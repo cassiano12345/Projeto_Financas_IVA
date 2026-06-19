@@ -14,3 +14,16 @@ Finanças IVA C#-API_ -> Form1.cs
 - EncryptAES
 
 - EncryptRSA
+
+<br/>
+
+***Variáveis***
+- StrEncryptPasswordAT: Variavel destinada a guardar a password criptografada. <br/>
+
+- StrEncryptCreatedAT: Variavel destinada a guardar a data criptografada. <br/>
+
+- StrEncryptNonceAT: Variavel destinada a guardar o Nonce criptografado.<br/>
+
+- StrDigestAT: Variavel destinada a guardar a disgest criptografada. <br/>
+
+***Links***
