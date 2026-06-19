@@ -6,3 +6,11 @@ O presente projeto é destinado a comunicação periodica de Iva ao portal da fi
 ### Algumas funcionalidades a destacar
 Finanças IVA C#-API_ -> Form1.cs
 
+***Funções***
+- EncryptAT: A função tem como variáveis de entrada duas variáveis uma para a password, e o caminho do certificado,
+
+- CalculateSHA1Digest:
+
+- EncryptAES
+
+- EncryptRSA
