@@ -33,6 +33,15 @@ Finanças IVA C#-API_ -> Form1.cs
 
 ***Links***
 
+- Link da API de testes destinado a autenticação
+https://servicos.portaldasfinancas.gov.pt:706/dpivaws/DeclaracaoPeriodicaIVAWebService
+
+- Link da API de produção destinado a autenticação
+https://servicos.portaldasfinancas.gov.pt:406/dpivaws/DeclaracaoPeriodicaIVAWebService
+
+- Link destinado ao envio do ficheiro soap
+https://servicos.portaldasfinancas.gov.pt/dpivaws/DeclaracaoPeriodicaIVAWebService/
+
 - Site do E fatura <br/>
 https://faturas.portaldasfinancas.gov.pt/
 
