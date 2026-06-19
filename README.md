@@ -39,7 +39,7 @@ https://servicos.portaldasfinancas.gov.pt:706/dpivaws/DeclaracaoPeriodicaIVAWebS
 - Link da API de produção destinado a autenticação
 https://servicos.portaldasfinancas.gov.pt:406/dpivaws/DeclaracaoPeriodicaIVAWebService
 
-- Link destinado ao envio do ficheiro soap
+- Link destinado ao envio do ficheiro soap <br/>
 https://servicos.portaldasfinancas.gov.pt/dpivaws/DeclaracaoPeriodicaIVAWebService/
 
 - Site do E fatura <br/>
