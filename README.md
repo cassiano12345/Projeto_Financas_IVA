@@ -11,9 +11,13 @@ Finanças IVA C#-API_ -> Form1.cs
 
 - CalculateSHA1Digest:
 
-- EncryptAES
+- EncryptAES:
 
-- EncryptRSA
+- EncryptRSA:
+
+- GetDeclaration_:
+
+- SendFileWithCertificate:
 
 <br/>
 
