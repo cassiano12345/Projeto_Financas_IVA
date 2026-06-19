@@ -55,99 +55,13 @@ namespace WS_IVA
         }
 
         private String[] args = Environment.GetCommandLineArgs();
+
         private string path = AppDomain.CurrentDomain.BaseDirectory.ToString() + "Faturas/";
+
         public string strDigestAT;
         public string strEncryptPasswordAT { get; private set; }
         public string strEncryptCreatedAT { get; private set; }
         public string strEncryptNonceAT { get; private set; }
-        public string strEncryptDigestAT { get; private set; }
-        /*
-        private void EncryptAT(string pPwdAT, string pPathCertf)
-        {
-            try
-            {
-                // Caminho para a chave pública
-                string CaminhoChavePublica = pPathCertf;
-
-                // Variáveis a encriptar
-                string PassFinancas = pPwdAT;
-                string DataCriacao = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ss") + "Z";
-
-                // Carregar chave pública
-                var certCP = new System.Security.Cryptography.X509Certificates.X509Certificate2();
-                certCP.Import(CaminhoChavePublica);
-                string ChavePublica = certCP.PublicKey.Key.ToXmlString(false);
-
-                // Gerar chave simétrica para o envio da informação
-                var aleatorios = new Random();
-                var ChaveSimetrica = new byte[16];
-                aleatorios.NextBytes(ChaveSimetrica);
-
-                // Configurar o algoritmo de cifra AES com ECB e PKCS5Padding
-                var rijn = System.Security.Cryptography.Aes.Create();
-                rijn.Key = ChaveSimetrica;
-                rijn.Mode = System.Security.Cryptography.CipherMode.ECB;
-                rijn.Padding = System.Security.Cryptography.PaddingMode.PKCS7;
-
-                // Encriptar Password das Finanças
-                string PassFinancasEncriptada = EncriptarAES(PassFinancas, rijn);
-
-                // Encriptar Data de Criação
-                string DataCriacaoEncriptada = EncriptarAES(DataCriacao, rijn);
-
-                // Criar Digest usando SHA-1
-                string Digest = CriarDigest(ChaveSimetrica, DataCriacao, PassFinancas);
-
-                // Encriptar a chave simétrica com RSA e a chave pública
-                var AlgRSA = new System.Security.Cryptography.RSACryptoServiceProvider();
-                AlgRSA.FromXmlString(ChavePublica);
-                var Chave = AlgRSA.Encrypt(ChaveSimetrica, false);
-                string ChaveSimetricaEncriptada = Convert.ToBase64String(Chave);
-
-                // Salvar valores encriptados
-                strEncryptPasswordAT = PassFinancasEncriptada;
-                strEncryptCreatedAT = DataCriacaoEncriptada;
-                strEncryptNonceAT = ChaveSimetricaEncriptada;
-                strEncryptDigestAT = Digest;
-
-                //MessageBox.Show("strEncryptPasswordAT: " + strEncryptPasswordAT);
-                //MessageBox.Show("strEncryptCreatedAT: " + strEncryptCreatedAT);
-                //MessageBox.Show("strEncryptNonceAT: " + strEncryptNonceAT);
-                //MessageBox.Show("strEncryptDigestAT: " + strEncryptDigestAT);
-            }
-            catch (Exception ex)
-            {
-                strEncryptPasswordAT = "";
-                strEncryptCreatedAT = "";
-                strEncryptNonceAT = "";
-                strEncryptDigestAT = "";
-            }
-        }
-
-        // Função auxiliar para encriptar com AES
-        private string EncriptarAES(string texto, System.Security.Cryptography.Aes aes)
-        {
-            var ms = new MemoryStream();
-            var cs = new System.Security.Cryptography.CryptoStream(ms, aes.CreateEncryptor(), System.Security.Cryptography.CryptoStreamMode.Write);
-            using (var sw = new StreamWriter(cs))
-            {
-                sw.Write(texto);
-            }
-            return Convert.ToBase64String(ms.ToArray());
-        }
-
-        // Função auxiliar para criar Digest
-        private string CriarDigest(byte[] chaveSimetrica, string dataCriacao, string senha)
-        {
-            string input = Convert.ToBase64String(chaveSimetrica) + dataCriacao + senha;
-            using (var sha1 = System.Security.Cryptography.SHA1.Create())
-            {
-                var hash = sha1.ComputeHash(System.Text.Encoding.UTF8.GetBytes(input));
-                return Convert.ToBase64String(hash);
-            }
-        }
-        */
-
 
         public void EncryptAT(string pPwdAT, string pPathCertf)
         {
@@ -266,34 +180,6 @@ namespace WS_IVA
             }
         }
 
-        public static string GetDeclaration(string filePath)
-        {
-            // Lê o conteúdo do ficheiro
-            byte[] fileBytes = File.ReadAllBytes(filePath);
-
-            // Cria um buffer para o arquivo ZIP
-            using (var memoryStream = new MemoryStream())
-            {
-                using (var archive = new ZipArchive(memoryStream, ZipArchiveMode.Create, true))
-                {
-                    // Adiciona o ficheiro ao arquivo ZIP
-                    var zipEntry = archive.CreateEntry("data.txt");
-                    using (var entryStream = zipEntry.Open())
-                    {
-                        entryStream.Write(fileBytes, 0, fileBytes.Length);
-                    }
-                }
-
-                // Obtém os bytes do arquivo ZIP
-                byte[] zipBytes = memoryStream.ToArray();
-
-                // Codifica em Base64 duas vezes
-                string base64Encoded = Convert.ToBase64String(zipBytes);
-                string doubleBase64Encoded = Convert.ToBase64String(Encoding.UTF8.GetBytes(base64Encoded));
-
-                return doubleBase64Encoded;
-            }
-        }
 
         public static string GetDeclaration_(string filePath)
         {
@@ -331,19 +217,6 @@ namespace WS_IVA
             
         }
 
-        private string GenerateDigest(string password, string created, byte[] key)
-        {
-            string concatenated = password + created + Encoding.UTF8.GetString(key);
-
-            // Calculate SHA-1 hash
-            using (var sha1 = SHA1.Create())
-            {
-                byte[] hash = sha1.ComputeHash(Encoding.UTF8.GetBytes(concatenated));
-
-                // Encrypt the hash with AES
-                return EncryptAES(Convert.ToBase64String(hash), key);
-            }
-        }
 
         public void SendFileWithCertificate(string filePath, string Authenticat, string soapAction, string certificatePath, string certificatePassword)
         {

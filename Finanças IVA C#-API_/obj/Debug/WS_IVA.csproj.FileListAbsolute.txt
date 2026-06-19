@@ -18,3 +18,13 @@ C:\Users\Cassiano Videira\Desktop\WS_IVA\WS_IVA\obj\Debug\WS_IVA.csproj.Generate
 C:\Users\Cassiano Videira\Desktop\WS_IVA\WS_IVA\obj\Debug\WS_IVA.csproj.CoreCompileInputs.cache
 C:\Users\Cassiano Videira\Desktop\WS_IVA\WS_IVA\obj\Debug\WS_IVA.exe
 C:\Users\Cassiano Videira\Desktop\WS_IVA\WS_IVA\obj\Debug\WS_IVA.pdb
+C:\Users\Cassiano Videira\Desktop\Projetos\Finanças IVA C#-API_\Finanças IVA C#-API_\bin\Debug\WS_IVA.exe.config
+C:\Users\Cassiano Videira\Desktop\Projetos\Finanças IVA C#-API_\Finanças IVA C#-API_\bin\Debug\WS_IVA.exe
+C:\Users\Cassiano Videira\Desktop\Projetos\Finanças IVA C#-API_\Finanças IVA C#-API_\bin\Debug\WS_IVA.pdb
+C:\Users\Cassiano Videira\Desktop\Projetos\Finanças IVA C#-API_\Finanças IVA C#-API_\obj\Debug\WS_IVA.csproj.AssemblyReference.cache
+C:\Users\Cassiano Videira\Desktop\Projetos\Finanças IVA C#-API_\Finanças IVA C#-API_\obj\Debug\WS_IVA.Form1.resources
+C:\Users\Cassiano Videira\Desktop\Projetos\Finanças IVA C#-API_\Finanças IVA C#-API_\obj\Debug\WS_IVA.Properties.Resources.resources
+C:\Users\Cassiano Videira\Desktop\Projetos\Finanças IVA C#-API_\Finanças IVA C#-API_\obj\Debug\WS_IVA.csproj.GenerateResource.cache
+C:\Users\Cassiano Videira\Desktop\Projetos\Finanças IVA C#-API_\Finanças IVA C#-API_\obj\Debug\WS_IVA.csproj.CoreCompileInputs.cache
+C:\Users\Cassiano Videira\Desktop\Projetos\Finanças IVA C#-API_\Finanças IVA C#-API_\obj\Debug\WS_IVA.exe
+C:\Users\Cassiano Videira\Desktop\Projetos\Finanças IVA C#-API_\Finanças IVA C#-API_\obj\Debug\WS_IVA.pdb
