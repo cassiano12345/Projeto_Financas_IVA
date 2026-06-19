@@ -32,3 +32,9 @@ Finanças IVA C#-API_ -> Form1.cs
 - StrDigestAT: Variavel destinada a guardar a disgest criptografada. <br/>
 
 ***Links***
+
+- Site do E fatura <br/>
+https://faturas.portaldasfinancas.gov.pt/
+
+- Site das Finanças <br/>
+https://www.portaldasfinancas.gov.pt/at/html/index.html
