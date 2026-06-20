@@ -8,11 +8,11 @@ A aplicação também permite autenticação de contablista com plenos poderes d
 Finanças IVA C#-API_ -> Form1.cs
 
 ***Funções***
-- EncryptAT: A função tem como variáveis de entrada duas variáveis uma para a password, e o caminho do certificado,
+- EncryptAT: A função tem como variáveis de entrada duas variáveis uma para a password, e o caminho do certificado, o principal objetivo da função é gerar a chave simetrica "AES", e com a mesma chave simetrica chamar outras funções para criptografar a password, a data, o nonce e a digest.
 
 - CalculateSHA1Digest:
 
-- EncryptAES:
+- EncryptAES: Esta função recebe uma string input, e uma chave simetrica AES, o principal objetivo da função é criptografar valores, para tal primeiro é criado o modo de criptofrafia onde foi usado ECB, e PKC7, depois é iniciado o processo de criptografia, onde é convertida a string para bytes, onde é criptografado os bytes, e no final são convertidos para base 64.
 
 - EncryptRSA:
 
