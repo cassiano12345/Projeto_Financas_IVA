@@ -16,7 +16,7 @@ Finanças IVA C#-API_ -> Form1.cs
 
 - EncryptRSA: Esta função recebe a chave simetrica, e a chave RSA que esta no certificado. O objetivo da função é criar uma chave simetrica para o Nonce com a RSA, começando por criptografalos e no final retornar os dados convertidos em base 64.
 
-- GetDeclaration_:
+- GetDeclaration_: Esta função como valores o caminho do ficheiro da declaração de IVA, o principal objetivo da função é ler ficheiro da declaração, comprimir o ficheiro para zip, depois fazer dupla conversão para base64 do ficheiro, e retornar esse valor.
 
 - SendFileWithCertificate:
 
