@@ -14,7 +14,7 @@ Finanças IVA C#-API_ -> Form1.cs
 
 - EncryptAES: Esta função recebe uma string input, e uma chave simetrica AES, o principal objetivo da função é criptografar valores, para tal primeiro é criado o modo de criptofrafia onde foi usado ECB, e PKC7, depois é iniciado o processo de criptografia, onde é convertida a string para bytes, onde é criptografado os bytes, e no final são convertidos para base 64.
 
-- EncryptRSA:
+- EncryptRSA: Esta função recebe a chave simetrica, e a chave RSA que esta no certificado. O objetivo da função é criar uma chave simetrica para o Nonce com o RSA, começando por criptografalos e no final retornar os dados convertidos em base 64.
 
 - GetDeclaration_:
 
