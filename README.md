@@ -10,7 +10,7 @@ Finanças IVA C#-API_ -> Form1.cs
 ***Funções***
 - EncryptAT: A função tem como variáveis de entrada duas variáveis uma para a password, e o caminho do certificado, o principal objetivo da função é gerar a chave simetrica "AES", e com a mesma chave simetrica chamar outras funções para criptografar a password, a data, o nonce e a digest.
 
-- CalculateSHA1Digest:
+- CalculateSHA1Digest: A função tem como objetivo calcular a Digest para o ficheiro SOAP, para tal a função recebe os valores, da password, da data atual, e a chave simetrica AES. Ao gerar a digest, a função concatena os valores de AES, da data, e da password, depois calcula o SHA-1 do valor concatenado, criptografa o SHA-1 gerado usando AES para tal é criado o modo de criptografia usando usado ECB, e PKC7, depois é iniciado o processo de criptografia, no final a função retorna o resultado em base64.
 
 - EncryptAES: Esta função recebe uma string input, e uma chave simetrica AES, o principal objetivo da função é criptografar valores, para tal primeiro é criado o modo de criptofrafia onde foi usado ECB, e PKC7, depois é iniciado o processo de criptografia, onde é convertida a string para bytes, onde é criptografado os bytes, e no final são convertidos para base 64.
 
@@ -18,7 +18,7 @@ Finanças IVA C#-API_ -> Form1.cs
 
 - GetDeclaration_: Esta função como valores o caminho do ficheiro da declaração de IVA, o principal objetivo da função é ler ficheiro da declaração, comprimir o ficheiro para zip, depois fazer dupla conversão para base64 do ficheiro, e retornar esse valor.
 
-- SendFileWithCertificate:
+- SendFileWithCertificate: 
 
 <br/>
 
