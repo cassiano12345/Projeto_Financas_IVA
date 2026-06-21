@@ -47,3 +47,6 @@ https://faturas.portaldasfinancas.gov.pt/
 
 - Site das Finanças <br/>
 https://www.portaldasfinancas.gov.pt/at/html/index.html
+
+- Manual de integração de software <br/>
+https://info.portaldasfinancas.gov.pt/pt/apoio_ao_contribuinte/Outras_entidades/Suporte_tecnologico/Webservice/IVA/Comunicacao_declaracoes_periodicas_IVA/Documents/Comunicacao_Declaracoes_Periodicas_de_IVA_a_AT.pdf
