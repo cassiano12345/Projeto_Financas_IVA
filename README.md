@@ -23,13 +23,29 @@ Finanças IVA C#-API_ -> Form1.cs
 <br/>
 
 ***Variáveis***
-- StrEncryptPasswordAT: Variavel destinada a guardar a password criptografada. <br/>
+- StrEncryptPasswordAT: Variável destinada a guardar a password criptografada. <br/>
 
-- StrEncryptCreatedAT: Variavel destinada a guardar a data criptografada. <br/>
+- StrEncryptCreatedAT: Variável destinada a guardar a data criptografada. <br/>
 
-- StrEncryptNonceAT: Variavel destinada a guardar o Nonce criptografado.<br/>
+- StrEncryptNonceAT: Variável destinada a guardar o Nonce criptografado.<br/>
 
-- StrDigestAT: Variavel destinada a guardar a disgest criptografada. <br/>
+- StrDigestAT: Variável destinada a guardar a disgest criptografada. <br/>
+
+***Imagens*** <br/>
+
+***Página principal*** <br/>
+A imagem a baixo mostra a página principal do programa, onde é possivel ver os campos do NIF, da password do contribuente, do lado direito é possivel ver também os campos do contablista certificado da empresa, e o campo para a sua password, mais em baixo é possivel ver o campo destinado a mostrar a resposta do servidor. 
+
+<p align="center">
+  <img src="Imagem da aplicação.png" alt="OpenMontage" width="700">
+</p>
+
+***Tipos de autenticação*** <br/>
+A imagem a baixo mostra os tipos de autenticação possiveis na aplicação.
+
+<p align="center">
+  <img src="Tipos de autenticação.png" alt="OpenMontage" width="700">
+</p>
 
 ***Links***
 
