@@ -41,10 +41,7 @@ A imagem a baixo mostra a página principal do programa, onde é possivel ver os
 </p>
 
 ***Tipos de autenticação*** <br/>
-A imagem a baixo mostra os tipos de autenticação possiveis na aplicação, sendo elas:
-- Autenticação do contribuente.
-- Autenticação do contablista certificado com plenos poderes declarativos para o contribuente.
-- Autenticação do contablista certificado sem plenos poderes declarativos para o contribuente.
+A imagem a baixo mostra os tipos de autenticação possiveis na aplicação.
 
 <p align="center">
   <img src="Tipos de autenticação.png" alt="OpenMontage" width="700">
